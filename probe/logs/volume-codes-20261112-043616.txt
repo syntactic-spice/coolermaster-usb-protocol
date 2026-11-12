@@ -1,0 +1,21 @@
+# Run started 2026-11-12 04:36:16, cable connection, test button = forward (entry 4).
+# Transcribed from the terminal: the script crashed before writing this file,
+# because the mouse stopped answering after the fa step (the PC went to sleep).
+# Raw interface-2 reports for each step are in 20261112.log ("MEDIA" lines).
+# CORRECTION: the script's system-control bit names were wrong at the time.
+# fa sent "02 01" = bit 0 = System Sleep (usage 0x82), not Power Down.
+# See volume-codes-20261112-060514.txt.
+ec: consumer 0x00cd Play/Pause (control)
+e8: consumer 0x00e9 Volume Up
+e9: consumer 0x00ea Volume Down
+ea: consumer 0x00e2 Mute
+ef: consumer 0x0225 WWW Forward
+f0: consumer 0x0224 WWW Back
+f1: consumer 0x0221 WWW Search
+f2: consumer 0x022a WWW Favorites
+f3: consumer 0x0227 WWW Refresh
+f4: consumer 0x0226 WWW Stop
+f8: consumer 0x0194 My Computer
+fa: system "02 01" = Sleep (originally mislabelled Power Down)
+fb: nothing on interface 2 (unreliable: PC had just slept; retested in 060514)
+fc: not tested (configuration interface stopped answering)

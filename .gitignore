@@ -1,0 +1,7 @@
+_re/
+_ctl/
+backup/
+*.gpr
+*.rep/
+__pycache__/
+.venv/

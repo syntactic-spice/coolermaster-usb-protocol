@@ -1,0 +1,9 @@
+# Run 2026-11-12 06:05, dongle, test button = forward (entry 4), Windows power and
+# sleep button actions temporarily set to "Do nothing".
+# CORRECTION: the script printed system-control names from a wrong bit table.
+# Raw reports (20261112.log, MEDIA lines): fb -> "02 02", fc -> "02 04".
+# Per the interface-2 descriptor (usages 0x82, 0x81, 0x83 in bit order):
+# bit 1 = System Power Down, bit 2 = System Wake Up.
+ec: consumer Play/Pause; consumer release
+fb: system "02 02" = Power Down (originally printed as Sleep); system release
+fc: system "02 04" = Wake Up; system release

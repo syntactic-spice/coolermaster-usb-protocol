@@ -1,0 +1,257 @@
+{
+    "deviceId": 75,
+    "profile": {
+        "Sound": {
+            "bass": 8,
+            "buttonMicMute": 0,
+            "hasChanged": false,
+            "micVol": 0,
+            "soundProfiles": {
+                "currentSound": "POP MUSIC",
+                "lastSound": "POP MUSIC",
+                "soundProfile": null
+            },
+            "speakerMute": 0,
+            "speakerVol": 0,
+            "treble": 8
+        },
+        "SurroundSound": {
+            "SurroundProfiles": {
+                "SurroundProfile": null,
+                "currentSurround": "Default",
+                "lastSurround": "Default"
+            },
+            "hasChanged": false,
+            "smvssEnable": false,
+            "vssEnable": false
+        },
+        "argbType": {
+            "hasChanged": false,
+            "portType": [
+                0,
+                0,
+                0
+            ]
+        },
+        "currPortName": "",
+        "headset": {
+            "defaultAudio": 0,
+            "hasChanged": false,
+            "isDisableMic": false,
+            "isDisableSpeaker": false
+        },
+        "keyMacro": {
+            "currentMacroName": "",
+            "hasChanged": false,
+            "macroPath": "",
+            "macros": null,
+            "maxMacroEvent": 152
+        },
+        "keyMapping": {
+            "activeLanguage": 0,
+            "buttonKey": [
+                [
+                    "700",
+                    "700"
+                ],
+                [
+                    "701",
+                    "701"
+                ],
+                [
+                    "702",
+                    "702"
+                ],
+                [
+                    "707",
+                    "707"
+                ],
+                [
+                    "706",
+                    "706"
+                ],
+                [
+                    "705",
+                    "859"
+                ],
+                [
+                    "703",
+                    "703"
+                ],
+                [
+                    "704",
+                    "704"
+                ],
+                [
+                    "708",
+                    "0"
+                ],
+                [
+                    "709",
+                    "0"
+                ],
+                [
+                    "710",
+                    "1010"
+                ],
+                [
+                    "712",
+                    "846"
+                ],
+                [
+                    "711",
+                    "847"
+                ]
+            ],
+            "comboView": false,
+            "hasChanged": false,
+            "mouseCombo": true,
+            "topView": true
+        },
+        "lightingEffect": {
+            "backGroundCustom": [
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000"
+            ],
+            "effectMode": {
+                "hasChanged": false,
+                "id": "3"
+            },
+            "effects": [
+                {
+                    "Filter": null,
+                    "contents": {
+                        "dim": 255,
+                        "rgb": "00FFFF"
+                    },
+                    "description": "STATIC",
+                    "id": "0",
+                    "name": "STATIC"
+                },
+                {
+                    "Filter": null,
+                    "contents": {
+                        "dim": 255,
+                        "rgb": "FF8000",
+                        "speed": 1
+                    },
+                    "description": "BREATHING",
+                    "id": "1",
+                    "name": "BREATHING"
+                },
+                {
+                    "Filter": null,
+                    "contents": {
+                        "dim": 255,
+                        "speed": 1
+                    },
+                    "description": "COLOR CYCLE",
+                    "id": "2",
+                    "name": "COLOR CYCLE"
+                },
+                {
+                    "Filter": null,
+                    "contents": null,
+                    "description": "OFF",
+                    "id": "3",
+                    "name": "OFF"
+                }
+            ],
+            "foreGroundCustom": [
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000",
+                "00000000"
+            ]
+        },
+        "maxMacroAssigned": 13,
+        "motionPower": {
+            "balance": 0,
+            "engineEnable": 0,
+            "hasChanged": false,
+            "intensity": 0,
+            "powerEnable": 0
+        },
+        "mousePerformance": {
+            "performance": {
+                "angle_snap": false,
+                "angle_tune": 0,
+                "button_respond_time": 3,
+                "dpiLevel": 3,
+                "dpi_table": [
+                    {
+                        "enable": false,
+                        "xValue": 400,
+                        "yValue": 400
+                    },
+                    {
+                        "enable": true,
+                        "xValue": 800,
+                        "yValue": 800
+                    },
+                    {
+                        "enable": false,
+                        "xValue": 1200,
+                        "yValue": 1200
+                    },
+                    {
+                        "enable": true,
+                        "xValue": 1600,
+                        "yValue": 1600
+                    },
+                    {
+                        "enable": false,
+                        "xValue": 3200,
+                        "yValue": 3200
+                    },
+                    {
+                        "enable": false,
+                        "xValue": 8000,
+                        "yValue": 8000
+                    },
+                    {
+                        "enable": false,
+                        "xValue": 19000,
+                        "yValue": 19000
+                    }
+                ],
+                "hasChanged": false,
+                "lift": false,
+                "min_sq_run": 73,
+                "os_double_click_speed": 7,
+                "os_sensitivity": 6,
+                "pixel_threshold": 73,
+                "polling_rate": 1
+            },
+            "surfaces": {
+                "currentSurface": "DEFAULT SURFACE",
+                "link": true,
+                "surface": [
+                    {
+                        "min_sq_run": 16,
+                        "name": "DEFAULT SURFACE",
+                        "pixel_threshold": 10
+                    }
+                ]
+            }
+        },
+        "openExePath": "",
+        "profileId": "0",
+        "profileName": "PROFILE1",
+        "resetPartialId": "-1",
+        "wireless": {
+            "hasChanged": false,
+            "low_threshold": 15,
+            "set_time": 300
+        }
+    },
+    "type": "PROFILE"
+}
